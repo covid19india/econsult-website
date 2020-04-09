@@ -8,7 +8,7 @@ Branches:
 
 Current Deployments are [hosted here](https://covid19india.github.io/econsult-website/)
  
-## Contributing to covid19india.org website
+## Contributing to eConsult website
 
 First off, thanks for taking the time to contribute! :+1:
 
