@@ -3,7 +3,7 @@
 This is the Onboarding Website of eConsult project (https://github.com/covid19india/eConsult)
 
 Branches: 
-- [master]: Contains the Source Code of the Website in ``src>app``, along with configuration files.
+- [master](https://github.com/covid19india/econsult-website/tree/master) : Contains the Source Code of the Website in ``src>App.js``, along with configuration files and node modules.
 - [gh-pages](https://github.com/covid19india/econsult-website/tree/gh-pages) : Contains the Compiled React.JS App
 
 Current Deployments are [hosted here](https://covid19india.github.io/econsult-website/)
