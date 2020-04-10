@@ -108,7 +108,7 @@ function Home(props) {
                     <h2>Doctor Registration</h2>
                     <a
                       className="button econsult-button"
-                      href="#"
+                      href="https://bit.ly/econsultdoc"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
