@@ -2,7 +2,7 @@
 
 This is the Onboarding Website of eConsult project (https://github.com/covid19india/eConsult)
 
-Current Deployments are [hosted here](https://covid19india.github.io/econsult-website/)
+Current Deployments are [hosted here](https://econsult-website-three.now.sh/)
  
 ## Contributing to eConsult website
 
