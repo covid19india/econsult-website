@@ -1,16 +1,44 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 
 function TNC(props) {
+  const [tnc, setTnc] = useState([]);
+
+  useEffect(() => {
+    getTnc();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const getTnc = () => {
+    axios
+      .get('https://econsult-api-lovat.now.sh/tnc')
+      .then((response) => {
+        setTnc(response.data['tnc']);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   return (
-    <div className="Links">
-      <div className="link fadeInUp" style={{animationDelay: '0.2s'}}>
-        <h3>1</h3>
-        
-      </div>
-      <div className="link fadeInUp" style={{animationDelay: '0.2s'}}>
-        <h3>2</h3>
-        
-      </div>
+    <div className="FAQ">
+      {tnc.map((tnc, index) => {
+        return (
+          <div
+            key={index}
+            className="faq fadeInUp"
+            style={{animationDelay: `${0.5 + index * 0.1}s`}}
+          >
+            
+            {tnc.tncno} . <h3
+              className="answer"
+              dangerouslySetInnerHTML={{__html: tnc.tnc-value}}
+            ></h3>
+          </div>
+        );
+      })}
     </div>
   );
 }

@@ -14,7 +14,7 @@ function FAQ(props) {
 
   const getFAQs = () => {
     axios
-      .get('https://api.covid19india.org/website_data.json')
+      .get('https://econsult-api-lovat.now.sh/faq')
       .then((response) => {
         setFaq(response.data['faq']);
       })

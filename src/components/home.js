@@ -71,6 +71,15 @@ function Home(props) {
   return (
     <React.Fragment>
       <div className="Home">
+        <a
+          className="button econsult-button"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon.Play />
+          <span>click here to Start&nbsp;</span>
+        </a>
         <div className="home-left">
           <div className="header fadeInUp" style={{animationDelay: '1s'}}>
             <div className="header-mid">
@@ -116,7 +125,22 @@ function Home(props) {
                       <span>Register&nbsp;</span>
                     </a>
                     </div>
-                  </div>
+                </div>
+                <div className="home-card">
+                    <img className="fadeInUp" src="/econsult_superdocs.png" alt="econsult_superdocs"/>
+                    <div className="home-card-container">
+                    <h2>Doctor Registration</h2>
+                    <a
+                      className="button econsult-button"
+                      href="https://bit.ly/econsultdoc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon.Navigation />
+                      <span>Register&nbsp;</span>
+                    </a>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
