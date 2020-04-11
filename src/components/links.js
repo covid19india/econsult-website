@@ -31,13 +31,13 @@ function Links(props) {
             className="link fadeInUp"
             style={{animationDelay: `${0.5 + index * 0.1}s`}}
           >
-            <h2 className="question">{link.link-about}</h2>
+            <h2 className="question">{link.linkabout}</h2>
             <a
               href="{link.link-value}"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {link.link-value}
+              {link.linkvalue}
             </a>
           </div>
         );

@@ -34,7 +34,7 @@ function TNC(props) {
             
             {tnc.tncno} . <h3
               className="answer"
-              dangerouslySetInnerHTML={{__html: tnc.tnc-value}}
+              dangerouslySetInnerHTML={{__html: tnc.tncvalue}}
             ></h3>
           </div>
         );
