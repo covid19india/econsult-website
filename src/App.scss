@@ -2477,6 +2477,40 @@ select {
   .updates, .updates-header {
     width: calc(100% - 2rem);
   }
+  
+  .volunteer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  
+    .volunteer-left,
+    .volunteer-mid,
+    .volunteer-right {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .volunteer-left {
+      margin-right: 2.5rem;
+      margin-left: 2.5rem;
+    
+    }
+    
+    .volunteer-mid {
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+  
+    .volunteer-right {
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+  }
 
   .Home {
     display: flex;
