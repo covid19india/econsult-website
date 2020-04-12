@@ -103,7 +103,7 @@ function Home(props) {
             <div className="header-mid">
               <div className="titles">
                 <div className="home-card">
-                    
+                    <img className="fadeInUp" src="/econsult_background.png" alt="eConsult"/>
                     <div className="home-card-container">
                     
                     <a
@@ -112,7 +112,7 @@ function Home(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Icon.Navigation />
+                      <Icon.Map-pin />
                       <span>Esssentials near you&nbsp;</span>
                     </a>
                     </div>
@@ -128,7 +128,7 @@ function Home(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Icon.Navigation />
+                      <Icon.Download />
                       <span>Download Prescription&nbsp;</span>
                     </a>
                     </div>
@@ -139,33 +139,57 @@ function Home(props) {
         </div>
       </div>
       <div className="volunteer">
-      <a
-                      className="button econsult-button"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Icon.Play />
-                      <span>Volunteer as doctor&nbsp;</span>
-                    </a>
-                    <a
-                      className="button econsult-button"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Icon.Play />
-                      <span>Volunteer as Medical Assistant&nbsp;</span>
-                    </a>
-                    <a
-                      className="button econsult-button"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Icon.Play />
-                      <span>Volunteer as Essential services&nbsp;</span>
-                    </a>
+        <div className="volunteer-left">
+            <div className="header fadeInUp" style={{animationDelay: '1s'}}>
+              <div className="header-mid">
+                <div className="titles">
+                <a
+                        className="button econsult-button"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Icon.User />
+                        <span>Volunteer as doctor&nbsp;</span>
+                      </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div className="volunteer-mid">
+            <div className="header fadeInUp" style={{animationDelay: '1s'}}>
+              <div className="header-mid">
+                <div className="titles">
+                <a
+                        className="button econsult-button"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Icon.User />
+                        <span>Volunteer as Medical Assistant&nbsp;</span>
+                      </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div className="volunteer-left">
+            <div className="header fadeInUp" style={{animationDelay: '1s'}}>
+              <div className="header-mid">
+                <div className="titles">
+                <a
+                        className="button econsult-button"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Icon.Users />
+                        <span>Volunteer as Essential services&nbsp;</span>
+                      </a>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </React.Fragment>
   );
