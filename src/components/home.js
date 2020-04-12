@@ -141,7 +141,7 @@ function Home(props) {
       <div className="volunteer">
         <div className="volunteer-left">
             <div className="header fadeInUp" style={{animationDelay: '1s'}}>
-              <div className="header-mid">
+              
                 <div className="titles">
                 <a
                         className="button econsult-button"
@@ -153,12 +153,12 @@ function Home(props) {
                         <span>Volunteer as doctor&nbsp;</span>
                       </a>
                 </div>
-              </div>
+              
             </div>
         </div>
         <div className="volunteer-mid">
             <div className="header fadeInUp" style={{animationDelay: '1s'}}>
-              <div className="header-mid">
+              
                 <div className="titles">
                 <a
                         className="button econsult-button"
@@ -170,12 +170,12 @@ function Home(props) {
                         <span>Volunteer as Medical Assistant&nbsp;</span>
                       </a>
                 </div>
-              </div>
+              
             </div>
         </div>
         <div className="volunteer-left">
             <div className="header fadeInUp" style={{animationDelay: '1s'}}>
-              <div className="header-mid">
+              
                 <div className="titles">
                 <a
                         className="button econsult-button"
@@ -187,7 +187,7 @@ function Home(props) {
                         <span>Volunteer as Essential services&nbsp;</span>
                       </a>
                 </div>
-              </div>
+              
             </div>
         </div>
       </div>
