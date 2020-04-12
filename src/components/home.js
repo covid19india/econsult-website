@@ -71,15 +71,6 @@ function Home(props) {
   return (
     <React.Fragment>
       <div className="Home">
-        <a
-          className="button econsult-button"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Icon.Play />
-          <span>click here to Start&nbsp;</span>
-        </a>
         <div className="home-left">
           <div className="header fadeInUp" style={{animationDelay: '1s'}}>
             <div className="header-mid">
@@ -112,9 +103,9 @@ function Home(props) {
             <div className="header-mid">
               <div className="titles">
                 <div className="home-card">
-                    <img className="fadeInUp" src="/econsult_superdocs.png" alt="econsult_superdocs"/>
+                    
                     <div className="home-card-container">
-                    <h2>Doctor Registration</h2>
+                    
                     <a
                       className="button econsult-button"
                       href="https://bit.ly/econsultdoc"
@@ -122,22 +113,23 @@ function Home(props) {
                       rel="noopener noreferrer"
                     >
                       <Icon.Navigation />
-                      <span>Register&nbsp;</span>
+                      <span>Esssentials near you&nbsp;</span>
                     </a>
                     </div>
                 </div>
+                &nbsp;&nbsp;
                 <div className="home-card">
-                    <img className="fadeInUp" src="/econsult_superdocs.png" alt="econsult_superdocs"/>
+                    
                     <div className="home-card-container">
-                    <h2>Doctor Registration</h2>
+                    
                     <a
                       className="button econsult-button"
-                      href="https://bit.ly/econsultdoc"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Icon.Navigation />
-                      <span>Register&nbsp;</span>
+                      <span>Download Prescription&nbsp;</span>
                     </a>
                     </div>
                 </div>
@@ -145,6 +137,35 @@ function Home(props) {
             </div>
           </div>
         </div>
+      </div>
+      <div className="volunteer">
+      <a
+                      className="button econsult-button"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon.Play />
+                      <span>Volunteer as doctor&nbsp;</span>
+                    </a>
+                    <a
+                      className="button econsult-button"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon.Play />
+                      <span>Volunteer as Medical Assistant&nbsp;</span>
+                    </a>
+                    <a
+                      className="button econsult-button"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon.Play />
+                      <span>Volunteer as Essential services&nbsp;</span>
+                    </a>
       </div>
     </React.Fragment>
   );
