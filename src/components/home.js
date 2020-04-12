@@ -112,7 +112,7 @@ function Home(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Icon.Map-pin />
+                      <Icon.Map />
                       <span>Esssentials near you&nbsp;</span>
                     </a>
                     </div>
