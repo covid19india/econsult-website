@@ -2466,9 +2466,13 @@ select {
 }
 
 .tawktoContainer{
+  display:flex;
+  overflow: hidden;
+  flex-direction: column;
 }
 
 .iframeCustom{
+  position: absolute;
     top: 0;
     left: 0;
     width: 100%;
