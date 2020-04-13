@@ -23,19 +23,18 @@ function TNC(props) {
       });
   };
   return (
-    <div className="FAQ">
+    <div className="TNC">
       {tnc.map((tnc, index) => {
         return (
           <div
             key={index}
-            className="faq fadeInUp"
+            className="tnc fadeInUp"
             style={{animationDelay: `${0.5 + index * 0.1}s`}}
           >
-            
-            {tnc.tncno} . <h3
-              className="answer"
+            <h5
+              className="tncvalue"
               dangerouslySetInnerHTML={{__html: tnc.tncvalue}}
-            ></h3>
+            ></h5>
           </div>
         );
       })}

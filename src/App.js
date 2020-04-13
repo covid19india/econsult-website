@@ -14,6 +14,8 @@ import Navbar from './components/navbar';
 import Links from './components/links';
 import FAQ from './components/faq';
 import TNC from './components/tnc';
+import StartConsultation from './components/startConsultation';
+import TawkTo from './components/tawkto';
 
 const history = require('history').createBrowserHistory;
 
@@ -41,6 +43,18 @@ function App() {
       pageLink: '/faq',
       view: FAQ,
       displayName: 'About',
+      animationDelayForNavbar: 0.5,
+    },
+    {
+      pageLink: '/startConsultation',
+      view: StartConsultation,
+      displayName: 'startConsultation',
+      animationDelayForNavbar: 0.5,
+    },
+    {
+      pageLink: '/tawkto',
+      view: TawkTo,
+      displayName: 'tawkto',
       animationDelayForNavbar: 0.5,
     },
   ];

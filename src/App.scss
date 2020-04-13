@@ -290,7 +290,21 @@ h6 {
     margin-right: 2.5rem;
   }
 }
+.consultation-button{
+    
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    color: $pblue;
+    width: 13rem;
+    & > * {
+      align-self: center;
+    }
 
+    &:hover {
+      background: $pblue-hover;
+    }
+}
 .Banner {
   display: flex;
   flex-direction: row;
@@ -1465,6 +1479,42 @@ footer {
   }
 }
 
+.TNC {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 30rem;
+
+  & > * {
+    align-self: center;
+    width: 30rem;
+    margin-bottom: 1.5rem;
+  }
+
+  & > *:first-child {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .tncvalue {
+    color: $blue;
+  }
+
+  a {
+    background: $blue-light;
+    color: $blue;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .FAQ {
   display: flex;
   flex-direction: column;
@@ -2415,6 +2465,17 @@ select {
   }
 }
 
+.tawktoContainer{
+}
+
+.iframeCustom{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .cards-container {
   padding: 4rem;
   .cards {
@@ -2471,6 +2532,7 @@ select {
   .Minigraph,
   .Summary,
   .FAQ,
+  .TNC,
   .MapExplorer,
   .patients-summary
   .filters,
@@ -2520,7 +2582,8 @@ select {
   }
 
   .link,
-  .faq {
+  .faq,
+  .tnc {
     width: calc(100% - 2rem);
   }
 
