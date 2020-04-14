@@ -14,6 +14,8 @@ import Navbar from './components/navbar';
 import Links from './components/links';
 import FAQ from './components/faq';
 import TNC from './components/tnc';
+import StartConsultation from './components/startConsultation';
+import TawkTo from './components/tawkto';
 
 const history = require('history').createBrowserHistory;
 
@@ -41,6 +43,18 @@ function App() {
       pageLink: '/faq',
       view: FAQ,
       displayName: 'About',
+      animationDelayForNavbar: 0.5,
+    },
+    {
+      pageLink: '/startConsultation',
+      view: StartConsultation,
+      displayName: 'startConsultation',
+      animationDelayForNavbar: 0.5,
+    },
+    {
+      pageLink: '/tawkto',
+      view: TawkTo,
+      displayName: 'tawkto',
       animationDelayForNavbar: 0.5,
     },
   ];
@@ -71,6 +85,7 @@ function App() {
         />
       </Router>
 
+      
       <footer className="fadeInUp" style={{animationDelay: '2s'}}>
 
         <h5>We stand with everyone fighting on the frontlines</h5>
@@ -83,15 +98,7 @@ function App() {
             covid19india
           </a>
         </div>
-        <a
-          href="https://github.com/covid19india/eConsult"
-          className="button github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Icon.GitHub />
-          <span>Open Sourced on GitHub</span>
-        </a>
+        
         <a
           href="https://twitter.com/covid19indiaorg"
           target="_blank"
@@ -110,6 +117,15 @@ function App() {
         >
           <Icon.MessageCircle />
           <span>Join Telegram to Collaborate!</span>
+        </a>
+        <a
+          href="https://github.com/covid19india/eConsult"
+          className="button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon.GitHub />
+          <span>Open Sourced on GitHub</span>
         </a>
       </footer>
     </div>
