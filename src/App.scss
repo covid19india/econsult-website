@@ -231,7 +231,7 @@ h6 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // flex-wrap: wrap;
+  // flex-wrap: wrap; //it should be wrapped only in consultation page 
   margin-left: 5rem;
   margin-right: 5rem;
 
@@ -255,6 +255,15 @@ h6 {
 
   .update-block{
     margin-top: 1.5rem;
+  }
+}
+
+.consultationlayout { //properties applied only to consultation page.
+  flex-wrap: wrap;
+
+  h3 {
+    padding: 1rem;
+    text-align: center;
   }
 }
 
