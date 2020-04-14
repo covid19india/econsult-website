@@ -231,7 +231,7 @@ h6 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   margin-left: 5rem;
   margin-right: 5rem;
 
@@ -243,14 +243,14 @@ h6 {
   }
 
   .home-left {
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
   
   }
 
   .home-right {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .update-block{
@@ -290,6 +290,7 @@ h6 {
     margin-right: 2.5rem;
   }
 }
+
 .consultation-button{
     
     height: 3rem;
@@ -305,6 +306,7 @@ h6 {
       background: $pblue-hover;
     }
 }
+
 .Banner {
   display: flex;
   flex-direction: row;
@@ -377,7 +379,7 @@ h6 {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 30rem;
+  // width: 30rem;
   align-self: center;
   justify-content: space-between;
   padding-top: 2rem;
@@ -395,7 +397,7 @@ h6 {
   .header-mid {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 
     .titles {
       h6 {
@@ -494,7 +496,7 @@ h6 {
 }
 
 .telegram {
-  width: 15.5rem;
+  // width: 15.5rem; //overflowing parent div
   background: $gray-light !important;
   color: #08c !important;
   padding-left: 0.65rem;
@@ -507,7 +509,7 @@ h6 {
 }
 
 .github {
-  width: 15.5rem;
+  // width: 15.5rem;//overflowing parent div
   background: #000 !important;
   color: #fff !important;
   padding-left: 0.65rem;
@@ -519,9 +521,9 @@ h6 {
   }
 }
 
-.twitter {
-  width: 15.5rem;
-}
+// .twitter {
+//   width: 15.5rem;//overflowing parent div
+// }
 
 .excel {
   color: #33a667;
@@ -2466,14 +2468,16 @@ select {
 }
 
 .tawktoContainer{
-  display:flex;
+  position: relative;
+  display: flex;
   overflow: hidden;
   flex-direction: column;
+  min-height: 80vh;
 }
 
 .iframeCustom{
   position: absolute;
-    top: 0;
+    // top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -2559,7 +2563,7 @@ select {
       display: flex;
       flex-direction: column;
       margin: 0;
-      padding-left: 25%;
+      // padding-left: 25%;
     }
   
   }
@@ -2624,7 +2628,7 @@ select {
   a.button {
     display: flex;
     flex: row;
-    width: 10rem;
+    // width: 10rem;//overflowing parent div
     justify-content: center;
 
     & > * {
@@ -2867,54 +2871,59 @@ select {
 //update beacon
 
 .update-beacon{
-  position:absolute;
-  top:50%;
-  left:30%;
-  background-color:#007bff;
-  height:1em;
-  width:1em;
-  border-radius:50%;
-  -webkit-transform:translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  background-color: #007bff;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
 }
+
 .update-beacon:before{
-  position:absolute;
-  content:"";
-  height:1em;
-  width:1em;
-  left:0;
-  top:0;
-  background-color:transparent;
-  border-radius:50%;
-  box-shadow:0px 0px 2px 2px #2980b9;
-  -webkit-animation:active 2s infinite linear;
-  animation:active 2s infinite linear;
+  position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px #2980b9;
+  -webkit-animation: active 2s infinite linear;
+  animation: active 2s infinite linear;
 }
 
 @-webkit-keyframes active{
   0%{
-    -webkit-transform:scale(.1);
-    opacity:1;
+    -webkit-transform: scale(.1);
+    opacity: 1;
   }
+
   70%{
-    -webkit-transform:scale(2.5);
-    opacity:0;
+    -webkit-transform: scale(2.5);
+    opacity: 0;
   }
+
   100%{
-    opacity:0;
+    opacity: 0;
   }
 }
 
 @keyframes active{
   0%{
-    transform:scale(.1);
-    opacity:1;
+    transform: scale(.1);
+    opacity: 1;
   }
+
   70%{
-    transform:scale(2.5);
-    opacity:0;
+    transform: scale(2.5);
+    opacity: 0;
   }
+
   100%{
-    opacity:0;
+    opacity: 0;
   }
 }
 
@@ -2922,13 +2931,13 @@ select {
 .home-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 60%;
+  width: 15rem;
   border-radius: 5px;
   margin: auto;
 
   img{
     border-radius: 5px 5px 0 0;
-    width : 100%;
+    width: 100%;
   }
 }
 
