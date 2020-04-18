@@ -85,7 +85,7 @@ function App() {
         />
       </Router>
 
-      {location.pathname !== 'src/tawkto.js' && <Footer/>}
+      
       <footer className="fadeInUp" style={{animationDelay: '2s'}}>
       <h5>We stand with everyone fighting on the frontlines</h5>
       <div className="link">
