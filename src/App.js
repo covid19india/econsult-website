@@ -85,7 +85,7 @@ function App() {
         />
       </Router>
 
-      
+      {location.pathname !== 'src/tawkto.js' && <Footer/>}
       <footer className="fadeInUp" style={{animationDelay: '2s'}}>
       <h5>We stand with everyone fighting on the frontlines</h5>
       <div className="link">
@@ -105,15 +105,6 @@ function App() {
       >
         <Icon.GitHub />
         <span>Open Sourced on GitHub</span>
-      </a>
-      <a
-        className="button excel"
-        href="http://patientdb.covid19india.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Icon.Database />
-        <span>Crowdsourced Patient Database&nbsp;</span>
       </a>
       <a
         href="https://twitter.com/covid19indiaorg"
