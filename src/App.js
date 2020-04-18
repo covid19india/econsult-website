@@ -80,7 +80,6 @@ function App() {
                 })}
                 <Redirect to="/" />
               </Switch>
-              {location.pathname !== '/tawkto' && <Footer/>}
             </div>
           )}
         /> 
