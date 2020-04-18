@@ -84,7 +84,7 @@ function App() {
           )}
         /> 
       </Router>
-      {location.pathname !== '/tawkto' && <Footer/>}
+      <Footer />
     </div>
   );
 }
