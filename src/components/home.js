@@ -1,6 +1,8 @@
 import React from 'react';
 import * as Icon from 'react-feather';
-import {GiPlagueDoctorProfile} from 'react-icons/gi';
+import {FaUserNurse} from 'react-icons/fa';
+import {FaUserMd} from 'react-icons/fa';
+import {MdLocalPharmacy} from 'react-icons/md';
 // import StartConsultation from './startConsultation';
 
 import {Link} from 'react-router-dom';
@@ -73,7 +75,7 @@ function Home(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <GiPlagueDoctorProfile />
+                    <FaUserMd />
                     <span>Volunteer as a doctor&nbsp;</span>
                   </a>
                 </div>
@@ -92,7 +94,7 @@ function Home(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Icon.User />
+                    <FaUserNurse />
                     <span>Volunteer as a Medical Assistant&nbsp;</span>
                   </a>
                 </div>
@@ -111,7 +113,7 @@ function Home(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Icon.Users />
+                    <MdLocalPharmacy />
                     <span>Enlist as an Essential service&nbsp;</span>
                   </a>
                 </div>
