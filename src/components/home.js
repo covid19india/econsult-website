@@ -15,11 +15,10 @@ function Home(props) {
                 <div className="home-card">
                   <img
                     className="fadeInUp"
-                    src="/econsult_background.png"
+                    src="/consultation.png"
                     alt="eConsult"
                   />
                   <div className="home-card-container">
-                    <h2>consultation</h2>
                     <Link
                       to="/startConsultation"
                       className="button econsult-button"
@@ -41,18 +40,18 @@ function Home(props) {
                 <div className="home-card">
                   <img
                     className="fadeInUp"
-                    src="/econsult_background.png"
-                    alt="eConsult"
+                    src="/essentials.png"
+                    alt="essentials"
                   />
                   <div className="home-card-container">
                     <a
                       className="button econsult-button"
-                      href="https://bit.ly/econsultdoc"
+                      href="https://www.covid19india.org/essentials"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Icon.Map />
-                      <span>Esssentials near you&nbsp;</span>
+                      <span>Find Nearby&nbsp;</span>
                     </a>
                   </div>
                 </div>
@@ -62,11 +61,11 @@ function Home(props) {
                     <a
                       className="button econsult-button"
                       href="#"
-                      target="_blank"
+                      target="_self"
                       rel="noopener noreferrer"
                     >
                       <Icon.Download />
-                      <span>Download Prescription&nbsp;</span>
+                      <span>Coming Soon&nbsp;</span>
                     </a>
                   </div>
                 </div>
@@ -83,7 +82,7 @@ function Home(props) {
                 <div className="home-card-container">
                   <a
                     className="button econsult-button"
-                    href="#"
+                    href="https://airtable.com/shrVJBHlWPmZFPKCI"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -121,7 +120,7 @@ function Home(props) {
                 <div className="home-card-container">
                   <a
                     className="button econsult-button"
-                    href="#"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfquevp7_rdgdEoDgTdimWwTXO3B9TjFEAm3DbrMDXxCiuwuA/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
