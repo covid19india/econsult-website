@@ -1,13 +1,15 @@
 # eConsult Website 
 
-This is the Onboarding Website of the [eConsult project] (https://github.com/covid19india/eConsult). Please visit there to get a complete overview of other components of the project.
+This is the Onboarding Website of the [eConsult project](https://github.com/covid19india/eConsult). Please visit there to get a complete overview of other components of the project.
 
 Current Deployments are [hosted here](https://econsult-website-three.now.sh/)
 
-We are currently using tawk.to as our chat client.
-To deploy, open a Free Tawk.to account,
-and then follow the instruction here 
-\src\components\tawkto.js 
+We are currently using *tawk.to* as our chat client.
+
+To integrate tawk.to, 
+- open a Free Tawk.to account,
+- and then follow the instructions [here](https://www.tawk.to/knowledgebase/getting-started/adding-a-widget-to-your-website/)
+- finally, replace your script to ```\src\components\tawkto.js``` 
  
 ## Contributing to eConsult website
 
