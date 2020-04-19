@@ -52,9 +52,9 @@ function App() {
       animationDelayForNavbar: 0.5,
     },
     {
-      pageLink: '/tawkto',
+      pageLink: '/consult',
       view: TawkTo,
-      displayName: 'tawkto',
+      displayName: 'consult',
       animationDelayForNavbar: 0.5,
     },
   ];
