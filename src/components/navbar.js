@@ -36,7 +36,7 @@ function Navbar(props) {
                 <span
                   {...navLinkProps(page.pageLink, page.animationDelayForNavbar)}
                 >
-                  {page.displayName === 'startConsultation' || page.displayName === 'tawkto' ? '' : page.displayName}
+                  {page.displayName === 'startConsultation' || page.displayName === 'consult' ? '' : page.displayName}
                 </span>
               </Link>
             );
