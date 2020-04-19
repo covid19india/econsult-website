@@ -11,7 +11,7 @@ function StartConsultation(props) {
 
         <TNC></TNC>
         <div>
-          <Link to="/tawkto" className="button econsult-button">
+          <Link to="/consult" className="button econsult-button">
             <Icon.Play />
             <span>Accept and continue&nbsp;</span>
           </Link>
