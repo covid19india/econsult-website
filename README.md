@@ -7,7 +7,7 @@ Current Deployments are [hosted here](https://econsult-website-three.now.sh/)
 We are currently using *tawk.to* as our chat client.
 
 To integrate tawk.to, 
-- open a Free Tawk.to account,
+- open a Free [tawk.to](https://dashboard.tawk.to/signup) account,
 - and then follow the instructions [here](https://www.tawk.to/knowledgebase/getting-started/adding-a-widget-to-your-website/)
 - finally, replace your script to ```\src\components\tawkto.js``` 
  
