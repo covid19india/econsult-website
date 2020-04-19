@@ -55,20 +55,8 @@ function Home(props) {
                     </a>
                   </div>
                 </div>
-                &nbsp;&nbsp;
-                <div className="home-card">
-                  <div className="home-card-container">
-                    <a
-                      className="button econsult-button"
-                      href="#"
-                      target="_self"
-                      rel="noopener noreferrer"
-                    >
-                      <Icon.Download />
-                      <span>Coming Soon&nbsp;</span>
-                    </a>
-                  </div>
-                </div>
+                
+            
               </div>
             </div>
           </div>
@@ -138,3 +126,19 @@ function Home(props) {
 }
 
 export default Home;
+
+
+/* &nbsp;&nbsp;
+<div className="home-card">
+                  <div className="home-card-container">
+                    <a
+                      className="button econsult-button"
+                      href="#"
+                      target="_self"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon.Download />
+                      <span>Coming Soon&nbsp;</span>
+                    </a>
+                  </div>
+                </div> */
