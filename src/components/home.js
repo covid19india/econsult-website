@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Icon from 'react-feather';
+import {GiPlagueDoctorProfile} from 'react-icons/gi';
 // import StartConsultation from './startConsultation';
 
 import {Link} from 'react-router-dom';
@@ -55,8 +56,6 @@ function Home(props) {
                     </a>
                   </div>
                 </div>
-                
-            
               </div>
             </div>
           </div>
@@ -74,8 +73,8 @@ function Home(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Icon.User />
-                    <span>Volunteer as doctor&nbsp;</span>
+                    <GiPlagueDoctorProfile />
+                    <span>Volunteer as a doctor&nbsp;</span>
                   </a>
                 </div>
               </div>
@@ -89,12 +88,12 @@ function Home(props) {
                 <div className="home-card-container">
                   <a
                     className="button econsult-button"
-                    href="#"
+                    href="https://forms.gle/X6A1dTdjtS1fpdaD8"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Icon.User />
-                    <span>Volunteer as Medical Assistant&nbsp;</span>
+                    <span>Volunteer as a Medical Assistant&nbsp;</span>
                   </a>
                 </div>
               </div>
@@ -113,7 +112,7 @@ function Home(props) {
                     rel="noopener noreferrer"
                   >
                     <Icon.Users />
-                    <span>Volunteer as Essential services&nbsp;</span>
+                    <span>Enlist as an Essential service&nbsp;</span>
                   </a>
                 </div>
               </div>
@@ -127,7 +126,6 @@ function Home(props) {
 
 export default Home;
 
-
 /* &nbsp;&nbsp;
 <div className="home-card">
                   <div className="home-card-container">
@@ -138,7 +136,7 @@ export default Home;
                       rel="noopener noreferrer"
                     >
                       <Icon.Download />
-                      <span>Coming Soon&nbsp;</span>
+                      <span>Download Prescription&nbsp;</span>
                     </a>
                   </div>
                 </div> */
