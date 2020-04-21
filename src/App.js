@@ -5,7 +5,6 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
-import * as Icon from 'react-feather';
 
 import './App.scss';
 
@@ -16,7 +15,7 @@ import FAQ from './components/faq';
 import TNC from './components/tnc';
 import StartConsultation from './components/startConsultation';
 import TawkTo from './components/tawkto';
-import Footer from './components/footer'
+import Footer from './components/footer';
 const history = require('history').createBrowserHistory;
 
 function App() {
@@ -60,32 +59,45 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <>
       <Router history={history}>
         <Route
           render={({location}) => (
-            <div className="Almighty-Router">
-              <Navbar pages={pages} />
-              <Route exact path="/" render={() => <Redirect to="/" />} />
-              <Switch location={location}>
-                {pages.map((page, i) => {
-                  return (
-                    <Route
-                      exact
-                      path={page.pageLink}
-                      component={page.view}
-                      key={i}
-                    />
-                  );
-                })}
-                <Redirect to="/" />
-              </Switch>
-            </div>
+            <>
+              <div className="Almighty-Router">
+                <Navbar pages={pages} />
+              </div>
+              <div
+                className="App"
+                style={{
+                  position: 'fixed',
+                  overflowY: 'scroll',
+                  top: '70px',
+                  bottom: '0px',
+                  width: '100%',
+                }}
+              >
+                <Route exact path="/" render={() => <Redirect to="/" />} />
+                <Switch location={location}>
+                  {pages.map((page, i) => {
+                    return (
+                      <Route
+                        exact
+                        path={page.pageLink}
+                        component={page.view}
+                        key={i}
+                      />
+                    );
+                  })}
+                  <Redirect to="/" />
+                </Switch>
+                <Footer />
+              </div>
+            </>
           )}
-        /> 
+        />
       </Router>
-      <Footer />
-    </div>
+    </>
   );
 }
 

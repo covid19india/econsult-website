@@ -17,6 +17,10 @@ function Navbar(props) {
         style={{
           animationDelay: '0.5s',
           transition: 'all 0.3s ease-in-out',
+          position: 'fixed',
+          top: 0,
+          zIndex: 9999999,
+          width: '100%',
         }}
       >
         <img
@@ -36,7 +40,10 @@ function Navbar(props) {
                 <span
                   {...navLinkProps(page.pageLink, page.animationDelayForNavbar)}
                 >
-                  {page.displayName === 'startConsultation' || page.displayName === 'consult' ? '' : page.displayName}
+                  {page.displayName === 'startConsultation' ||
+                  page.displayName === 'consult'
+                    ? ''
+                    : page.displayName}
                 </span>
               </Link>
             );
